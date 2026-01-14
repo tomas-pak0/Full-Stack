@@ -100,7 +100,7 @@
         }
 
         #kontaktai a {
-            color: red;          /* Naudoja tą pačią spalvą kaip ir aplinkinis tekstas */
+            color: #3498db;          /* Naudoja tą pačią spalvą kaip ir aplinkinis tekstas */
             text-decoration: none;   /* Panaikina pabraukimą */
         }
 
