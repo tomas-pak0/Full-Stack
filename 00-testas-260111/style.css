@@ -130,7 +130,7 @@ body {
 }
 
 .sekcija {
-  height: 1000px; /* Sukuriame vietos skrolinimui */
+  height: 1000px; /* Sukuriame vietos naršymui */
   background: #f4f4f4;
   padding: 20px;
   border: 1px dashed #ccc;
