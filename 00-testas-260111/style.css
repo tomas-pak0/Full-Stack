@@ -93,7 +93,7 @@ nav ul li a:hover {
 #pradzia h1:hover {
   color: red;
   -webkit-text-stroke: 2px black; /* 2px storio juodas apvadas */
-  text-shadow: 0px 0px 18px #000000;
+  text-shadow: 0px 0px 28px #000000;
 }
 
 .container {
@@ -109,6 +109,8 @@ nav ul li a:hover {
 
 #kontaktai a:hover {
   text-decoration: underline;
+  text-shadow: 0px 0px 7px #5f5f5f;
+  color: #35575c;
 }
 
 footer {
@@ -117,7 +119,7 @@ footer {
   background: #2c3e50;
   color: white;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Pagrindinė taisyklė švelniam judėjimui */
@@ -150,7 +152,7 @@ body {
 .social-button {
   margin-top: 10px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 14px;
   color: #35575c;
   transition: 0.3s;
 }
@@ -159,6 +161,7 @@ body {
 .facebook:hover { color: #1877F2; }
 .instagram:hover { color: #E4405F; }
 .twitter:hover { color: #000000; }
+.youtube:hover { color: #FF0000; }
 .linkedin:hover { color: #0A66C2; } 
 
 /* Spalvos užvedus pelę */
@@ -172,6 +175,10 @@ body {
 }
 .twitter:hover {
   color: #000000;
+  text-shadow: 0px 0px 18px #000000;
+}
+.youtube:hover {
+  color: #ff0000;
   text-shadow: 0px 0px 18px #000000;
 }
 .linkedin:hover {
