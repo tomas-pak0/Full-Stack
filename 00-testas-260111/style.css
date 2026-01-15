@@ -70,6 +70,27 @@ nav ul li a:hover {
   box-shadow: 0px 0px 14px #000000;
 }
 
+/* header pasislėpimas */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s; /* Švelnus pasislėpimas per 0.3 sekundės */
+  z-index: 1000;
+}
+
+/* Ši klasė bus pridedama su JavaScript */
+.header-hidden {
+  top: -100px; /* Nustumiame headerį virš ekrano ribų (pritaikykite pagal savo header aukštį) */
+}
+
+/* Pašaliname naršyklės numatytuosius tarpus */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 /* Turinys */
 .hero {
   height: 43vh;
@@ -142,11 +163,11 @@ body {
 }
 
 .social-icons {
-  display: flex;           /* Naudojame Flexbox */
+  display: flex; /* Naudojame Flexbox */
   justify-content: center; /* Centruoja ikonas horizontaliai per vidurį */
-  align-items: center;     /* Centruoja ikonas vertikaliai (jei blokas turi aukštį) */
-  gap: 15px;               /* Tarpas tarp ikonų */
-  width: 100%;             /* Įsitikiname, kad konteineris užima visą plotį */
+  align-items: center; /* Centruoja ikonas vertikaliai (jei blokas turi aukštį) */
+  gap: 15px; /* Tarpas tarp ikonų */
+  width: 100%; /* Įsitikiname, kad konteineris užima visą plotį */
 }
 
 .social-button {
@@ -158,11 +179,21 @@ body {
 }
 
 /* Spalvos užvedus pelę */
-.facebook:hover { color: #1877F2; }
-.instagram:hover { color: #E4405F; }
-.twitter:hover { color: #000000; }
-.youtube:hover { color: #FF0000; }
-.linkedin:hover { color: #0A66C2; } 
+.facebook:hover {
+  color: #1877f2;
+}
+.instagram:hover {
+  color: #e4405f;
+}
+.twitter:hover {
+  color: #000000;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
 
 /* Spalvos užvedus pelę */
 .facebook:hover {
