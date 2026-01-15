@@ -6,8 +6,8 @@ body {
   line-height: 1.4;
   color: #333;
   -webkit-user-select: none; /* Safari */
-  -ms-user-select: none;      /* IE 10 ir senesnės */
-  user-select: none;          /* Standartinė taisyklė */
+  -ms-user-select: none; /* IE 10 ir senesnės */
+  user-select: none; /* Standartinė taisyklė */
 }
 
 /* Meniu juostos stilius */
@@ -137,6 +137,38 @@ body {
   background: #f4f4f4;
   padding: 20px;
   border: 1px dashed #ccc;
+}
+
+.social-icons {
+  display: flex;           /* Naudojame Flexbox */
+  justify-content: center; /* Centruoja ikonas horizontaliai per vidurį */
+  align-items: center;     /* Centruoja ikonas vertikaliai (jei blokas turi aukštį) */
+  gap: 15px;               /* Tarpas tarp ikonų */
+  width: 100%;             /* Įsitikiname, kad konteineris užima visą plotį */
+}
+
+.social-button {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #35575c;
+  transition: 0.3s;
+}
+
+/* Spalvos užvedus pelę */
+.facebook:hover { color: #1877F2; }
+.instagram:hover { color: #E4405F; }
+.twitter:hover { color: #000000; }
+
+/* Spalvos užvedus pelę */
+.facebook:hover {
+  color: #1877f2;
+}
+.instagram:hover {
+  color: #e4405f;
+}
+.twitter:hover {
+  color: #000000;
 }
 
 .grizti-i-virsu {
