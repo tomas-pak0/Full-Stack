@@ -13,7 +13,7 @@ body {
 /* Meniu juostos stilius */
 header {
   background-color: #2c3e50;
-  opacity: 0.85; /* 15% skaidrumas */
+  opacity: 0.95; /* 5% skaidrumas */
   color: white;
   padding: 0.35rem 0 0 0;
   position: sticky;
