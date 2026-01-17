@@ -31,18 +31,23 @@ document.getElementById('metai').textContent = new Date().getFullYear();
 // }
 
 let lastScrollTop = 0; // Kintamasis paskutinei skrolinimo pozicijai saugoti
-const header = document.querySelector("header");
+const header = document.querySelector('header');
 
-window.addEventListener("scroll", function() {
-  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+window.addEventListener(
+  'scroll',
+  function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (scrollTop > lastScrollTop && scrollTop > 1) {
-    // Jei skroliname žemyn IR esame nuėję bent 1px nuo viršaus
-    header.classList.add("header-hidden");
-  } else {
-    // Jei skroliname į viršų
-    header.classList.remove("header-hidden");
-  }
+    if (scrollTop > lastScrollTop && scrollTop > 1) {
+      // Jei skroliname žemyn IR esame nuėję bent 1px nuo viršaus
+      header.classList.add('header-hidden');
+    } else {
+      // Jei skroliname į viršų
+      header.classList.remove('header-hidden');
+    }
 
-  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Atnaujiname poziciją
-}, false);
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Atnaujiname poziciją
+  },
+  false
+);
+
