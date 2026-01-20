@@ -1,9 +1,0 @@
-{
-  "manifest_version": 3,
-  "name": "Mano SaaS Plėtinys",
-  "version": "1.0",
-  "permissions": ["storage", "identity"],
-  "action": {
-    "default_popup": "index.html"
-  }
-}
